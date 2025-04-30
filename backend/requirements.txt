@@ -5,30 +5,21 @@ uvicorn[standard]
 # PDF parsing
 PyMuPDF==1.22.3
 
-# NLP integration (choose one or both)
-langchain
-llama-index
-
-# File and environment management
+# Environment and config
 python-dotenv
 
-# Database (ORM)
+# Database (if used)
 SQLAlchemy
-psycopg2-binary  # Only if using PostgreSQL
+psycopg2-binary  # Remove this if you're not using PostgreSQL
 
-# Pydantic for validation (already part of FastAPI, included here for clarity)
+# Data validation
 pydantic
 
-# CORS
+# CORS and other FastAPI extras
 fastapi[all]
 
-# Optional (for typing, linting, etc.)
+# HTTP requests
 httpx
 
+# Gemini AI
 google-generativeai
-
-langchain_community
-
-sentence-transformers
-
-langchain-huggingface
