@@ -16,4 +16,9 @@ pydantic
 fastapi[all]
 
 google-generativeai
+
 langchain_community
+
+sentence-transformers
+
+langchain-huggingface
