@@ -24,3 +24,5 @@ fastapi[all]
 
 # Optional (for typing, linting, etc.)
 httpx
+
+google-generativeai
