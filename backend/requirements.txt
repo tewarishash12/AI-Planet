@@ -26,3 +26,5 @@ fastapi[all]
 httpx
 
 google-generativeai
+
+langchain_community
