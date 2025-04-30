@@ -16,3 +16,4 @@ pydantic
 fastapi[all]
 
 google-generativeai
+langchain_community
