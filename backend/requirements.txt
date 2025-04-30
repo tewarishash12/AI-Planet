@@ -1,0 +1,26 @@
+# Core web framework
+fastapi
+uvicorn[standard]
+
+# PDF parsing
+PyMuPDF==1.22.3
+
+# NLP integration (choose one or both)
+langchain
+llama-index
+
+# File and environment management
+python-dotenv
+
+# Database (ORM)
+SQLAlchemy
+psycopg2-binary  # Only if using PostgreSQL
+
+# Pydantic for validation (already part of FastAPI, included here for clarity)
+pydantic
+
+# CORS
+fastapi[all]
+
+# Optional (for typing, linting, etc.)
+httpx

@@ -1,0 +1,17 @@
+.env
+
+venv
+
+pdf_metadata.db
+
+/app/__pycache__
+
+/app/api/__pycache__
+
+/app/core/__pycache__
+
+/app/db/__pycache__
+
+/app/models/__pycache__
+
+/app/services/__pycache__
