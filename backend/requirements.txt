@@ -1,25 +1,24 @@
-# Core web framework
-fastapi
-uvicorn[standard]
-
-# PDF parsing
 PyMuPDF==1.22.3
 
-# Environment and config
+# NLP integration (choose one or both)
+langchain
+
+# File and environment management
 python-dotenv
 
-# Database (if used)
+# Database (ORM)
 SQLAlchemy
-psycopg2-binary  # Remove this if you're not using PostgreSQL
 
-# Data validation
+# Pydantic for validation (already part of FastAPI, included here for clarity)
 pydantic
 
-# CORS and other FastAPI extras
+# CORS
 fastapi[all]
 
-# HTTP requests
-httpx
-
-# Gemini AI
 google-generativeai
+
+langchain_community
+
+sentence-transformers
+
+langchain-huggingface
