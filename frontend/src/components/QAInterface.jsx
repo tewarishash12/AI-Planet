@@ -27,12 +27,12 @@ const QAInterface = ({ fileId }) => {
     };
 
     return (
-        <div className="mt-6 p-6 border rounded-xl bg-white shadow-md dark:bg-gray-800">
+        <div className="mt-6 p-6 border rounded-xl bg-[#FFFFFF] shadow-md">
             <div className="flex justify-between items-center mb-4">
-                <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">Ask a Question</h2>
+                <h2 className="text-lg font-semibold text-[#1F2937]">Ask a Question</h2>
                 <button
                     onClick={() => setIsModalOpen(true)}
-                    className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+                    className="px-4 py-2 bg-[#FACC15] text-[#1F2937] rounded hover:bg-[#F97316]"
                 >
                     + Ask
                 </button>

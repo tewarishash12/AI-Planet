@@ -32,11 +32,10 @@ const PDFUpload = ({ onUploadSuccess }) => {
             setUploading(false);
         }
     };
-    
 
     return (
-        <div className="p-6 border rounded-xl bg-white shadow-md dark:bg-gray-800">
-            <label className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
+        <div className="p-6 border rounded-xl bg-[#FFFFFF] shadow-md">
+            <label className="block mb-2 text-sm font-medium text-[#1F2937]">
                 Upload a PDF
             </label>
             <input
@@ -49,7 +48,7 @@ const PDFUpload = ({ onUploadSuccess }) => {
             <button
                 onClick={handleUpload}
                 disabled={!file || uploading}
-                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:bg-gray-400"
+                className="px-4 py-2 bg-[#FACC15] text-[#1F2937] rounded hover:bg-[#F97316] disabled:bg-gray-400"
             >
                 {uploading ? "Uploading..." : "Upload PDF"}
             </button>
