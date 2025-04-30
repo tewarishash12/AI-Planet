@@ -21,7 +21,7 @@ export const uploadPDF = async (file) => {
 export const askQuestion = async (fileId, question) => {
     try {
         const response = await axios.post(`${API_BASE_URL}/ask`, {
-            file_id: fileId,
+            document_id: fileId,
             question,
         });
         return response.data;

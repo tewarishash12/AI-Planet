@@ -12,7 +12,7 @@ const QAInterface = ({ fileId }) => {
         setLoading(true);
         try {
             const res = await askQuestion(fileId, question);
-            setAnswers((prev) => [...prev, { question, answer: res.data.answer }]);
+            setAnswers((prev) => [...prev, { question, answer: res.answer }]);
             setQuestion("");
         } catch (err) {
             console.error(err.message);

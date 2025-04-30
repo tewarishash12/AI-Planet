@@ -10,7 +10,7 @@ const Home = () => {
             <h1 className="text-3xl md:text-4xl font-bold mb-8">PDF Q&A Assistant</h1>
 
             <div className="w-full max-w-2xl">
-                <PDFUpload onUploadSuccess={(data) => setFileId(data.file_id)} />
+                <PDFUpload onUploadSuccess={(fileId) => setFileId(fileId)} />
 
                 {fileId && (
                     <div className="mt-10">
