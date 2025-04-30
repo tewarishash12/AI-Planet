@@ -13,6 +13,6 @@ SQLAlchemy
 pydantic
 
 # CORS
-fastapi
+fastapi[all]
 
 google-generativeai
